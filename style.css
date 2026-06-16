@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(150, 213, 150);
+    background-origin: border-box;
+    font-style: bold;
+    
+}
+.hero {
+    height: 80vh;
+    background:url("https://images.unsplash.com/photo-1560185127-6ed189bf02f4")  center/cover no-repeat transparent;
+    opacity: 0.8;
+  }
+  
+  .hero h1 {
+    text-shadow: 5px 2px 5px rgb(0, 0, 0);
+  }
+  .hero p{
+    color:black; 
+    font-weight: 500;
+    background-color: lightslategrey; 
+    display: inline-block;
+    opacity: 0.8;
+    padding: 1px 8px; 
+    border-radius: 5px;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .navbar-brand::first-letter {
+    color:blue;
+    font-weight: bolder;
+}
+.card-body{
+  background-color: peachpuff;
+}
